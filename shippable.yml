@@ -4,3 +4,4 @@ rvm:
 env:
   - CI_REPORTS=qhode/testresults COVERAGE_REPORTS=qhode/codecoverage
 email : false
+campfire : qhode1:99b2845783c6adf698c143927e45d11045c47804@572631
