@@ -3,5 +3,6 @@ rvm:
   - 1.9.2
 env:
   - CI_REPORTS=qhode/testresults COVERAGE_REPORTS=qhode/codecoverage
-email : false
-campfire : qhode1:99b2845783c6adf698c143927e45d11045c47804@572631
+email : 
+  - vidyar@qhode.com
+campfire : qhode1:99b2845783c6adf698c143927e45d11045c47804@t572631
