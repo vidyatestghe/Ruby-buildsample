@@ -1,7 +1,4 @@
-rvm:
-  - 1.9.3
-  - 1.9.2
-  
+language: ruby
   
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
