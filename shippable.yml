@@ -13,3 +13,15 @@ env:
 
 notifications:
   email: true
+after_success:
+ - git push git@heroku.com:node-js-buildsample.git  master
+
+branches:
+  except:
+     - develop
+before_archive:
+  - echo "hi"
+
+  
+after_archive:
+  - echo "hello"
