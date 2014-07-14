@@ -6,9 +6,9 @@ rvm:
   #- jruby-18mode
   #- jruby-19mode
  # - rbx
-  - ree
+  #- ree
   #- ruby-head
-  #- jruby-head
+  - jruby-head
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
