@@ -12,10 +12,8 @@ rvm:
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
-notifications:
-  email: true
-after_success:
- - git push git@heroku.com:node-js-buildsample.git  master
+
+
 
 branches:
   except:
