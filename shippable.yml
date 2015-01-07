@@ -4,12 +4,12 @@ rvm:
   - 2.2.0
   - 2.1.0
   #- jruby
-  #- jruby-18mode
-  #- jruby-19mode
+ # - jruby-18mode
+  - jruby-19mode
  # - rbx
   - ree
   #- ruby-head
-  #- jruby-head
+  - jruby-head
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
