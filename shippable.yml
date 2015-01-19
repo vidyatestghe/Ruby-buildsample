@@ -4,15 +4,16 @@ rvm:
   #- jruby-head
   - 1.9.2
   - 2.1.1
+  - 2.0.0
 
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
-build_image: shippable/minv2
+build_image: shippable/minv2:beta
 
 before_install:
   #- source /home/shippable/.rvm/scripts/rvm
-  - source ~/.rvm/scripts/rvm && rvm use 1.9.3
+  - source ~/.rvm/scripts/rvm && rvm use 2.0.0
 
 branches:
   except:
