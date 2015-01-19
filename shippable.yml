@@ -13,7 +13,8 @@ build_image: shippable/minv2:beta
 
 before_install:
   #- source /home/shippable/.rvm/scripts/rvm
-  - source ~/.rvm/scripts/rvm && rvm use jruby
+ # - source ~/.rvm/scripts/rvm && rvm use jruby
+ - rvm use 1.9.3 
 
 branches:
   except:
