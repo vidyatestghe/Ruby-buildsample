@@ -24,6 +24,7 @@ archive: true
 branches:
   except:
      - develop
+
 before_archive:
   - echo "hi"
 
