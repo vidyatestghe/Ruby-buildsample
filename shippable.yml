@@ -18,6 +18,7 @@ env:
 
 #build_image: shippable/minv2:beta
 
+archive: true
 
 
 branches:
