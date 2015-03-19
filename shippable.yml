@@ -33,3 +33,6 @@ before_archive:
   
 after_archive:
   - echo "hello"
+ 
+notifications:
+  email: false
