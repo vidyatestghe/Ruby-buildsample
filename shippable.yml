@@ -1,6 +1,7 @@
 language: ruby
 
 
+
 rvm:
  # - 1.8.7
   #- 1.9.2
@@ -33,3 +34,6 @@ before_archive:
   
 after_archive:
   - echo "hello"
+ 
+notifications:
+  email: false
