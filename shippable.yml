@@ -20,9 +20,4 @@ before_install:
 branches:
   except:
      - develop
-before_archive:
-  - echo "hi"
 
-  
-after_archive:
-  - echo "hello"
