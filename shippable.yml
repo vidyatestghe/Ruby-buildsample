@@ -1,4 +1,5 @@
 language: ruby
+
 rvm:
  # - 1.8.7
   - 1.9.2
@@ -18,7 +19,7 @@ env:
 
 #build_image: shippable/minv2:beta
 
-
+archive: true
 
 branches:
   except:
